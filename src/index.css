@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
+/* 
+*{
+    outline: lime 1px solid;
+} */
+
+*{
+    scroll-behavior: smooth;
+}
