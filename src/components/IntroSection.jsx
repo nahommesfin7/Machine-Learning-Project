@@ -2,7 +2,7 @@ import React from 'react'
 
 const IntroSection = () => {
   return (
-    <div className=' bg-lime-200 p-24 py-32'>
+    <div id='aboutus2' className=' bg-lime-200 p-24 py-32'>
         <h1 className='text-3xl font-bold uppercase'>
         Ride the Future of Exploration with Us!
         </h1>

@@ -9,20 +9,6 @@ const Navbar = () => {
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Bike Rental
           </span>
-          <div className="flex items-center space-x-6 rtl:space-x-reverse">
-            <a
-              href="tel:5541251234"
-              className="text-sm text-gray-500 dark:text-white hover:underline"
-            >
-              {/* Contact or Phone number */}
-            </a>
-            <a
-              href="#"
-              className="text-sm text-blue-600 dark:text-white font-bold hover:underline"
-            >
-              Login
-            </a>
-          </div>
         </div>
       </nav>
 

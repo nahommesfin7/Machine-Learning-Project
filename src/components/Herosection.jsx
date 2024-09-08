@@ -16,7 +16,7 @@ const Herosection = () => {
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
-            <a href="#" class="inline-flex justify-center hover:text-white items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-cyan-950     rounded-lg border border-white hover:bg-cyan-800 ">
+            <a href="#aboutus2" class="inline-flex justify-center hover:text-white items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-cyan-950     rounded-lg border border-white hover:bg-cyan-800 ">
                 Learn more
             </a>  
         </div>
