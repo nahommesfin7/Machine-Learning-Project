@@ -4,6 +4,7 @@ import ServiceInputForm from '../components/Application'
 const ApplicationPage = () => {
   return (
     <div>
+         <Navbar />
         <ServiceInputForm/>
     </div>
   )
