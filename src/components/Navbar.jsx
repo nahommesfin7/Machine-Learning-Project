@@ -9,8 +9,25 @@ const Navbar = () => {
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Bike Rental
           </span>
+          <div className="flex gap-10  ">
+
+          < Link
+            to="/login"
+            className="text-gray-900 dark:text-white hover:underline"
+          >
+            Login
+          </Link>
+          <Link
+            to="/admin"
+            className="text-gray-900 dark:text-white hover:underline"
+          >
+            Admin
+          </Link>
+          </div>
         </div>
+        
       </nav>
+  
 
       <nav className="bg-gray-50 dark:bg-cyan-900">
         <div className="max-w-screen-xl px-4 py-3 mx-auto">
@@ -32,14 +49,7 @@ const Navbar = () => {
                   Application
                 </Link>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Features
-                </a>
-              </li>
+
             </ul>
           </div>
         </div>
